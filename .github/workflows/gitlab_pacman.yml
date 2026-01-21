@@ -16,10 +16,18 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          gitlab_user_name: AnneliesVaandrager
+      # - name: generate pacman-contribution-graph.svg
+        # uses: abozanona/pacman-contribution-graph@main
+        # with:
+          # gitlab_user_name: AnneliesVaandrager
+      - name: run a script
+        run: 
+          mkdir -p dist
+          npm install -g pacman-contribution-graph
+          pacman-contribution-graph --platform gitlab --username "AnneliesVaandrager" --gameTheme gitlab --output pacman-contribution-graph-light.svg
+          mv pacman-contribution-graph-light.svg dist/pacman-contribution-graph-light.svg
+          pacman-contribution-graph --platform gitlab --username "AnneliesVaandrager" --gameTheme gitlab-dark --output pacman-contribution-graph-dark.svg
+          mv pacman-contribution-graph-dark.svg dist/pacman-contribution-graph-dark.svg
 
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
