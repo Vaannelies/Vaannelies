@@ -7,8 +7,15 @@
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Vaannelies/Vaannelies/blob/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://github.com/Vaannelies/Vaannelies/blob/output/github-contribution-grid-snake.svg" />
 </picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vaannelies/Vaannelies/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vaannelies/Vaannelies/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Vaannelies/Vaannelies/output/pacman-contribution-graph.svg">
+</picture>
 <!--
 **Vaannelies/Vaannelies** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
 
 Here are some ideas to get you started:
 
