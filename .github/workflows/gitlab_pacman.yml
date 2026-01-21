@@ -22,7 +22,7 @@ jobs:
         # with:
           # gitlab_user_name: AnneliesVaandrager
       - name: run a script
-        run: 
+        run: |
           mkdir -p dist
           npm install -g pacman-contribution-graph
           pacman-contribution-graph --platform gitlab --username "AnneliesVaandrager" --gameTheme gitlab --output pacman-contribution-graph-light.svg
