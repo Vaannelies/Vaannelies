@@ -1,4 +1,4 @@
-name: generate pacman game
+name: generate gitlab contribution graph pacman
 
 on:
   schedule: # run automatically every 24 hours
