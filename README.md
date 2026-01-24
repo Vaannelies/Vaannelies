@@ -1,22 +1,23 @@
 # Hello :)
 <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vaannelies&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="ovi" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaannelies&theme=tokyonight" alt="mystreak"/> -->
-<picture>
+<picture title="by Platane">
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Vaannelies/Vaannelies/blob/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Vaannelies/Vaannelies/blob/output/github-contribution-grid-snake.svg" />
   <img alt="[loading github-snake...]" src="https://github.com/Vaannelies/Vaannelies/blob/output/github-contribution-grid-snake.svg" />
 </picture>
 
-*GitHub contributions*
+<sup>*GitHub contributions*</sup>
+<br><br>
 
 
-<picture>
+<picture title="by abozanona">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vaannelies/Vaannelies/output-gitlab-graph/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vaannelies/Vaannelies/output-gitlab-graph/pacman-contribution-graph.svg">
   <img alt="[loading pacman contribution graph...]" src="https://raw.githubusercontent.com/Vaannelies/Vaannelies/output-gitlab-graph/pacman-contribution-graph.svg">
 </picture>
 
-*GitLab contributions (AnneliesVaandrager)*
+<sup>*GitLab contributions (AnneliesVaandrager)*</sup>
 <!--
 **Vaannelies/Vaannelies** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
