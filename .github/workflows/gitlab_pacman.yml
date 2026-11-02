@@ -2,7 +2,7 @@ name: generate gitlab contribution graph pacman
 
 on:
   schedule: # run automatically every 24 hours
-    - cron: "* */12 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch: # allows to manually run the job at any time
   push: # run on every push on the master branch
     branches:
@@ -24,10 +24,8 @@ jobs:
         run: |
           mkdir -p dist
           npm install -g pacman-contribution-graph
-          pacman-contribution-graph --platform gitlab --username "AnneliesVaandrager" --gameTheme gitlab --output pacman-contribution-graph-light.svg
-          mv pacman-contribution-graph-light.svg dist/pacman-contribution-graph-light.svg
-          pacman-contribution-graph --platform gitlab --username "AnneliesVaandrager" --gameTheme gitlab-dark --output pacman-contribution-graph-dark.svg
-          mv pacman-contribution-graph-dark.svg dist/pacman-contribution-graph-dark.svg
+          pacman-contribution-graph --platform gitlab --username "AnneliesVaandrager" --game pacman --gameTheme gitlab --output dist/pacman-contribution-graph.svg
+          pacman-contribution-graph --platform gitlab --username "AnneliesVaandrager" --game pacman --gameTheme gitlab-dark --output dist/pacman-contribution-graph-dark.svg
 
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
